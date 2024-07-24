@@ -1,0 +1,28 @@
+export const slides = [ 
+{ asset:"AnnInTheBigHouse.jpg",	width:1728,	height:3072title:AnnInTheBigHouse },
+{ asset:"DogeDescription.jpg",	width:1468,	height:2609title:DogeDescription },
+{ asset:"GrandCanal.jpg",	width:4080,	height:3072title:GrandCanal },
+{ asset:"GrandCanalfromDogePalace.jpg",	width:4080,	height:3072title:GrandCanalfromDogePalace },
+{ asset:"MainHallDogePalace.jpg",	width:4080,	height:3072title:MainHallDogePalace },
+{ asset:"MoreCanals.jpg",	width:3072,	height:4080title:MoreCanals },
+{ asset:"NothingLikeAPub.jpg",	width:3072,	height:4080title:NothingLikeAPub },
+{ asset:"OurAlley.jpg",	width:3072,	height:4080title:OurAlley },
+{ asset:"OurCanalNearGuglie.jpg",	width:4080,	height:3072title:OurCanalNearGuglie },
+{ asset:"OutsideOurApartment.jpg",	width:4080,	height:3072title:OutsideOurApartment },
+{ asset:"PontedellaCostituzioneGrandCanal.jpg",	width:4080,	height:3072title:PontedellaCostituzioneGrandCanal },
+{ asset:"RandomCanal.jpg",	width:4080,	height:3072title:RandomCanal },
+{ asset:"SelfieInStMarks.jpg",	width:4208,	height:3120title:SelfieInStMarks },
+{ asset:"StMarksSquare.jpg",	width:3072,	height:4080title:StMarksSquare },
+{ asset:"SymbolOfVenice.jpg",	width:4080,	height:3072title:SymbolOfVenice },
+{ asset:"WalkingHome.jpg",	width:4080,	height:3072title:WalkingHome },
+{ asset:"WhatKeepsTheHousesTogether.jpg",	width:4080,	height:3072title:WhatKeepsTheHousesTogether },
+].map(({ asset, width, height }) => ({ 
+	src: assetLink(asset, width),
+	width,
+	height,
+	srcSet: breakpoints.map((breakpoint) => ({
+		src: assetLink(asset, breakpoint),
+		width: breakpoint,
+		height: Math.round((height / width) * breakpoint),
+	})),
+}));

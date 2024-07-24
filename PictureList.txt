@@ -1,3 +1,8 @@
+<img alt="" src="AlltheDoges.jpg" title="AlltheDoges" class="react-photo-album--photo" loading="lazy" decoding="async" style="display: block; box-sizing: content-box; width: calc(28.0354% - 12.6159px); height: auto; aspect-ratio: 4080 / 3072; cursor: pointer;">
+
+
+
+https://justcuriousbugs.atlassian.net/browse/JCWSD-76
 This program will be used in the JustCurious website build.  I have been able to use PhotoGallery in the travel section 
 of the website to provide a icon list of the photos and then a gallery list if someone clicks on any photo.  What I want to 
 do to make the process more generic is to dump the files that I want to use into a folder, and then generate an array that 
@@ -12,3 +17,40 @@ https://www.geeksforgeeks.org/python-list-files-in-a-directory/
 
 This helped me store the list to a file
 https://stackoverflow.com/questions/899103/writing-a-list-to-a-file-with-python-with-newlines
+
+Next Steps.  
+1) I need to setup a new list that has:
+a) The file name, 
+b) The picture width
+c) The picture height
+
+Used this to get the height and width
+https://note.nkmk.me/en/python-opencv-pillow-image-size/
+
+This link has different ways of accessing the .jpg info.
+https://www.geeksforgeeks.org/reading-images-in-python/
+https://pillow.readthedocs.io/en/stable/handbook/tutorial.html
+
+
+
+# Python program to read
+# image using PIL module
+ 
+# importing PIL
+from PIL import Image
+ 
+# Read image
+img = Image.open('g4g.png')
+ 
+# Output Images
+img.show()
+ 
+# prints format of image
+print(img.format)
+ 
+# prints mode of image
+print(img.mode)
+
+
+c:\\MyStuff\\JustCurious\\src\\Travel\\Croatia2023\\Venice\\pictures\\piclistfile.js'
+C:\MyStuff\JustCurious\src\Travel\Croatia2023\Venice\pictures

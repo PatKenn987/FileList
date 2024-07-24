@@ -1,0 +1,41 @@
+<img alt="" src="AnnInTheBigHouse.jpg" title="AnnInTheBigHouse" class="react-photo-album--photo" loading="lazy" decoding="async" style="display: block; box-sizing: content-box; width: calc(28.0354% - 12.6159px); height: auto; aspect-ratio: 4080 / 3072; cursor: pointer;">
+
+
+Only three of the 14 .jpg files are being displayed.
+If I move the file in the array, it still is displayed.  
+If I move other files up in the array, they are not displayed
+If i copy one of the files that is being displayed and rename it, it is not being displayed.
+
+
+export const photoAlbumList = [ 
+{ src:"AlltheDoges.jpg",	width:4080,	height:3072,	title:"AlltheDoges.jpg" },
+{ src:"AnnInTheBigHouse.jpg",	width:4080,	height:3072,	title:"AnnInTheBigHouse.jpg" },
+{ src:"AnnInTheBigHouse1.jpg",	width:4080,	height:3072,	title:"AnnInTheBigHouse1.jpg" },
+{ src:"CourtYardOfDogePalace.jpg",	width:4080,	height:3072,	title:"CourtYardOfDogePalace.jpg" },
+{ src:"DogeDescription.jpg",	width:3072,	height:4080,	title:"DogeDescription.jpg" },
+{ src:"GrandCanal.jpg",	width:4080,	height:3072,	title:"GrandCanal.jpg" },
+{ src:"GrandCanalfromDogePalace.jpg",	width:4080,	height:3072,	title:"GrandCanalfromDogePalace.jpg" },
+{ src:"GrandCanalNearMainTerminal.jpg",	width:4080,	height:3072,	title:"GrandCanalNearMainTerminal.jpg" },
+{ src:"MainHallDogePalace.jpg",	width:4080,	height:3072,	title:"MainHallDogePalace.jpg" },
+{ src:"MoreCanals.jpg",	width:3072,	height:4080,	title:"MoreCanals.jpg" },
+{ src:"NothingLikeAPub.jpg",	width:3072,	height:4080,	title:"NothingLikeAPub.jpg" },
+{ src:"OurAlley.jpg",	width:3072,	height:4080,	title:"OurAlley.jpg" },
+{ src:"OurCanalNearGuglie.jpg",	width:4080,	height:3072,	title:"OurCanalNearGuglie.jpg" },
+{ src:"OutsideOurApartment.jpg",	width:4080,	height:3072,	title:"OutsideOurApartment.jpg" },
+{ src:"PontedellaCostituzioneGrandCanal.jpg",	width:4080,	height:3072,	title:"PontedellaCostituzioneGrandCanal.jpg" },
+{ src:"RandomCanal.jpg",	width:4080,	height:3072,	title:"RandomCanal.jpg" },
+{ src:"SelfieInStMarks.jpg",	width:4208,	height:3120,	title:"SelfieInStMarks.jpg" },
+{ src:"StMarksSquare.jpg",	width:3072,	height:4080,	title:"StMarksSquare.jpg" },
+{ src:"SymbolOfVenice.jpg",	width:4080,	height:3072,	title:"SymbolOfVenice.jpg" },
+{ src:"ViewDogePalace.jpg",	width:4080,	height:3072,	title:"ViewDogePalace.jpg" },
+{ src:"WalkingHome.jpg",	width:4080,	height:3072,	title:"WalkingHome.jpg" },
+{ src:"WhatKeepsTheHousesTogether.jpg",	width:4080,	height:3072,	title:"WhatKeepsTheHousesTogether.jpg" },
+]
+
+  {
+    src: image20,
+    width: 4080,
+    height: 3072,
+    title: "WhatKeepsTheHousesTogether",
+    description: "This is a brace that we saw on many houses.",
+  },
