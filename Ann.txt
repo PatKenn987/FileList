@@ -39,3 +39,64 @@ export const photoAlbumList = [
     title: "WhatKeepsTheHousesTogether",
     description: "This is a brace that we saw on many houses.",
   },
+
+
+
+
+
+  // const ListOfPhotos = [
+//   {
+//     id: image1,
+//     title: "AnnInTheBig House",
+//     description: "Ann in the Big House in the Doge's Palace ",
+//     width: 1468,
+//     height: 3072,
+//   },
+//   {
+//     id: image2,
+//     title: "DogeDescription",
+//     description: "History and explanation of the Doge's",
+//     width: 1468,
+//     height: 2609,
+//   },
+//   { id: image3, width: 4080, height: 3072 },
+//   { id: image4, width: 4080, height: 3072 },
+//   { id: image5, width: 4080, height: 3072 },
+//   { id: image6, width: 1000, height: 2000 },
+//   { id: image7, width: 1000, height: 2000 },
+//   { id: image8, width: 1000, height: 2000 },
+//   { id: image9, width: 2000, height: 1250 },
+//   { id: image10, width: 2000, height: 1250 },
+//   { id: image11, width: 2000, height: 1250 },
+//   { id: image12, width: 2000, height: 1250 },
+//   { id: image13, width: 2000, height: 1250 },
+//   { id: image14, width: 1000, height: 2000 },
+//   { id: image15, width: 2000, height: 1250 },
+//   { id: image16, width: 2000, height: 1250 },
+//   { id: image17, width: 2000, height: 1250 },
+// ];
+
+// const unsplashLink = (id: string, width: number, height: number) =>
+//   // `${id}/${width}x${height}`;
+//   `${id}`;
+// // `${width}x${height}${id}`;
+
+// const breakpoints = [2160, 1080, 640, 384, 256, 128];
+
+// export const slides = ListOfPhotos.map((photo) => {
+//   const width = photo.width;
+//   const height = photo.height;
+//   return {
+//     src: photo.id,
+//     width,
+//     height,
+//     srcSet: breakpoints.map((breakpoint) => {
+//       const breakpointHeight = Math.round((height / width) * breakpoint);
+//       return {
+//         src: unsplashLink(photo.id, breakpoint, breakpointHeight),
+//         width: breakpoint,
+//         height: breakpointHeight,
+//       };
+//     }),
+//   };
+// });
